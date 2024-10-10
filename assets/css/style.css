@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+section {
+    min-height: 100vh;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-12 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.Sign-Up {
+    background: #25DAC5;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 100px;
+    padding: 7px 18px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.Sign-Up:hover {
+    cursor: pointer;
+    background: #ffda08;
+    color: #25DAC5;
+}
+
+.li {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    color: #15143966;
+}
+
+.li:hover {
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+ul {
+    display: flex;
+}
+
+.py20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.mr-auto {
+    margin-right: auto;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.logo {
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.25px;
+    letter-spacing: -0.2926828861236572px;
+    text-align: center;
+    color: #1E0E62;
+    white-space: nowrap;
+}
+
+.li-1:hover {
+    color: #573ccf;
+    cursor: pointer;
+}
+
+.heading {
+    font-family: "DM Sans", sans-serif;
+    font-size: 42px;
+    line-height: 52px;
+    color: #1E0E62;
+    margin-bottom: 77px;
+    margin-top: 110px;
+    max-width: 600px;
+    letter-spacing: -0.4000000059604645px;
+}
+
+.input {
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 500;
+    line-height: 26px;
+    padding-bottom: 16px;
+    max-width: 430px;
+    border-radius: 100px;
+    border: 2px solid #EBEAED;
+    padding-top: 18px;
+    padding-left: 24px;
+    margin-bottom: 30px;
+}
+
+.input:hover .stars {
+    background: #29bce9;
+    font-weight: bolder;
+}
+
+.Sign-in {
+    max-width: 430px;
+    background: #25DAC5;
+    color: white;
+    border-radius: 100px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    border: none;
+    text-align: center;
+    padding: 17px;
+    cursor: pointer;
+}
+
+.Sign-in:hover {
+    cursor: pointer;
+    background: #29bce9;
+    font-size: larger;
+}
+
+.line {
+    max-width: 470px;
+    font-family: "DM Sans", sans-serif;
+    line-height: 26px;
+    text-align: center;
+    color: #15143966;
+    margin-top: 17px;
+}
+
+iframe {
+    max-width: 470px;
+    left: 815px;
+    border-radius: 10px;
+    margin-top: 110px;
+}
+
+.para {
+    max-width: 470px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #15143966;
+    margin-top: 33px;
+}
+
+.menu-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+@media (min-width:992px) {
+    .col-lg-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+@media (min-width:600px) {
+    
+}
