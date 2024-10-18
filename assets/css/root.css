@@ -1,0 +1,30 @@
+:root{ font-family: "DM Sans", sans-serif;
+    --text-md:18px;
+    --text-lg:24px;
+    --text-xl:42px;
+    --background-sky: #25DAC5;
+    --color-white:white;
+    --color-black:black;
+    --color-grey: #15143966;
+    --color-voilet: #1E0E62;
+    --border-color:#EBEAED;
+}
+.text-md {
+    font-size: var(--text-md);
+}
+
+.text-lg {
+    font-size: var(--text-lg);
+}
+
+.text-xl {
+    font-size: var(--text-xl);
+}
+
+@media (max-width:576px) {
+    :root {
+        --text-md: 14px;
+        --text-lg: 20px;
+        --text-xl: 38px;
+    }
+}
